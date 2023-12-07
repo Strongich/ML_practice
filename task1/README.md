@@ -7,7 +7,7 @@ mountain names inside the texts. For this purpose you need:
 * Prepare demo code / notebook of the inference results.
 
 ## Dataset 
-Using recommendations, I decided to create a dataset with ChatGPT-3.5. All steps of creating I described in <b>data_creation.ipynb</b>.
+Using recommendations, I decided to create a dataset with ChatGPT-3.5. All steps of creating I described in [data_creation.ipynb](https://github.com/Strongich/ds_intership/blob/main/task1/data_creation.ipynb).
 ## Model selection
 For Name Entity Recognition (NER) task for the identification of mountain names inside text I've used fine-tuned BERT, that was trained on standart <b>CoNLL-2003 Named Entity Recognition</b> dataset. You can find the original model [here](https://huggingface.co/dslim/bert-base-NER).
 ## Fine-tuning 
@@ -16,8 +16,8 @@ Before talking about fine-tuning, I want to indicate that from the original mode
 Our pretrained model had other labels from ours. So in order to specify this model for our task I've trained it on a ChatGPT dataset, previously tokenized. I used AdamW optimizer with learning rate=0.00002, 5 epochs, batch size 4 and weight decay 0.01. Results is:
 * eval_f1: 0.897
 * eval_accuracy: 0.97 \
-All weights of model are stored in huggingface repo:[https://huggingface.co/Strongich/bert-english-ner-mountain](https://huggingface.co/Strongich/bert-english-ner-mountain).\
-All steps of tokenizing input data and training I've described in <b>train.py</b>.
+All weights of model are stored in huggingface repo: [https://huggingface.co/Strongich/bert-english-ner-mountain](https://huggingface.co/Strongich/bert-english-ner-mountain).\
+All steps of tokenizing input data and training I've described in [train.py](https://github.com/Strongich/ds_intership/blob/main/task1/train.py).
 ## Setup
 To use trained model, follow the instructions below:
 1. First clone the repository. To do this, open a terminal, go to the directory where you want to clone the project and then enter the command:
