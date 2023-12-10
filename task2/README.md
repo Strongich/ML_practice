@@ -66,5 +66,5 @@ You will see notes and status of algorithm in console and 2 new folders:
 ## Results
 From 1220 combinations of the possible matching pictures we got 41. You can find them at my [Google Drive](https://drive.google.com/drive/u/1/folders/1obTaYc_t9wuczuqPbm7Tm6_vYq2TN4jm). \
  There is few examples of how they looks: \
-![Alt text](matched_results/7.jpg) 
-![Alt text](matched_results/1.jpg)
+![Alt text](7.jpg) 
+![Alt text](1.jpg)
