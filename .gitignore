@@ -1,6 +1,9 @@
 # Byte-compiled / optimized / DLL files
 *.safetensors
 tokenizer/
+data/
+dev_data/
+matched_results/
 __pycache__/
 *.py[cod]
 *$py.class
