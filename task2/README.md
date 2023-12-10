@@ -22,8 +22,6 @@ Last part was to create a list of images to compare their features. Assuming, th
 As I mentioned above, we have used a SIFT keypoints detector. After all features and keypoints was extracted and saved in the same directory with .jpg image it corresponds, its time to compare them. For this task, I've used knnMatch with 2 nearest neighbors from [BFMatcher](https://docs.opencv.org/4.x/d3/da1/classcv_1_1BFMatcher.html). \
 As a result I've had 2 "closest" features to every feature in the first image and then I'm checking if the distance of the first match is less than a second match distance times 0.75 (hyperparameter). If it does, then I consider the match valid and good. As a result I'm returning a count of good matches between images. \
 If the amount is larger than 160 (hyperparameter), then I consider that both images are the same and stack them horizontally next to each other to create 1 image. I'm adding lines between matched keypoints and saving them.
-The result is looking like this: \
-![Alt text](matched_results/2.jpg)
 
 ## Setup
 To use trained model, follow the instructions below:
