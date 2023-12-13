@@ -1,12 +1,10 @@
 # Task 2. Computer vision. Sentinel-2 image matching
-In this task, you will work on the algorithm (or model) for matching satellite images. For the
-dataset creation, you can download Sentinel-2 images from the official source [here](https://dataspace.copernicus.eu/browser/) or use our
-dataset from [Kaggle](https://www.kaggle.com/datasets/isaienkov/deforestation-in-ukraine). Your algorithm should work with images from different seasons. For this
+In this task, I will work on the algorithm (or model) for matching satellite images. For the
+dataset creation, I will download Sentinel-2 images dataset from [Kaggle](https://www.kaggle.com/datasets/isaienkov/deforestation-in-ukraine). This algorithm should work with images from different seasons. For this
 purpose you need:
 * Prepare a dataset for keypoints detection and image matching (in case of using the ML
 approach).
 * Build / train the algorithm.
-* Prepare demo code / notebook of the inference results.
 
 ## Dataset 
 For this task I've used a dataset from Kaggle that I mentioned above.
