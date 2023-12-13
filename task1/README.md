@@ -7,7 +7,7 @@ mountain names inside the texts. For this purpose you need:
 * Prepare demo code / notebook of the inference results.
 
 ## Dataset 
-Using recommendations, I decided to create a dataset with ChatGPT-3.5. All steps of creating I described in [data_creation.ipynb](https://github.com/Strongich/ds_intership/blob/main/task1/data_creation.ipynb).
+Using recommendations, I decided to create a dataset with ChatGPT. All steps of creating I described in [data_creation.ipynb](https://github.com/Strongich/ds_intership/blob/main/task1/data_creation.ipynb).
 ## Model selection
 For Name Entity Recognition (NER) task for the identification of mountain names inside text I've used fine-tuned BERT, that was trained on standart <b>CoNLL-2003 Named Entity Recognition</b> dataset. You can find the original model [here](https://huggingface.co/dslim/bert-base-NER).
 ## Fine-tuning 
